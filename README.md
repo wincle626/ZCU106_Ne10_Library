@@ -3,7 +3,7 @@
 ## Original repository location
 https://github.com/projectNe10/Ne10
 
-## Build instruction (v1.2.1 only)
+## Build instruction (v1.2.1)
 
 
 ### 1. Comment out the following context at the end of CMakeLists.txt:
@@ -20,5 +20,11 @@ https://github.com/projectNe10/Ne10
     > cmake -DNE10_BUILD_SHARED=ON -DGNULINUX_PLATFORM=ON ..      # Run CMake to generate the build files
 ### 6. Build the library
     > make                                                        # Build the project
+
+## Build instruction (v1.0.0)
+
+### 1. Modification is made to the modules/CMakelists.txt from v1.2.0
+
+### 2. follow the step 2~6 of v1.2.0
 
 ## Usage
