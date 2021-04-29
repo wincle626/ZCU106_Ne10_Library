@@ -5,7 +5,7 @@ https://github.com/projectNe10/Ne10
 
 ## II. Build instruction 
 
-### (v1.2.1)
+### A. (v1.2.1)
 
 #### 1. Comment out the following context at the end of CMakeLists.txt:
     #if(GNULINUX_PLATFORM AND (NOT CMAKE_SYSTEM_PROCESSOR MATCHES "^arm"))
@@ -22,7 +22,7 @@ https://github.com/projectNe10/Ne10
 #### 6. Build the library
     > make                                                        # Build the project
 
-### (v1.0.0)
+### B. (v1.0.0)
 
 #### 1. Modification is made to the modules/CMakelists.txt from v1.2.0
 #### 2. follow the step 2~6 of v1.2.0
