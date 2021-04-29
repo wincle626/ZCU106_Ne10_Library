@@ -6,7 +6,7 @@ https://github.com/projectNe10/Ne10
 ## Build instruction (v1.2.1 only)
 
 
-### 1. Comment out the following contextin CMakeLists.txt:
+### 1. Comment out the following context at the end of CMakeLists.txt:
     #if(GNULINUX_PLATFORM AND (NOT CMAKE_SYSTEM_PROCESSOR MATCHES "^arm"))
     #    message(FATAL_ERROR "You are trying to compile for non-ARM (CMAKE_SYSTEM_PROCESSOR='${CMAKE_SYSTEM_PROCESSOR}')! see doc/building.md for cross compilation instructions.")
     #endif()
