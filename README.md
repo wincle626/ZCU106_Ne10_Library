@@ -15,7 +15,7 @@ https://github.com/projectNe10/Ne10
 ### 3. Create build folder
     > mkdir build && cd build                                     # Create the `build` directory and navigate into it
 ### 4. Define the build target architecture
-    > export NE10_LINUX_TARGET_ARCH=aarch64                         # Set the target architecture (can also be "armv7")
+    > export NE10_LINUX_TARGET_ARCH=aarch64                         # Set the target architecture (can also be "armv7" for earlier ARM processor)
 ### 5. Configure the cmake
     > cmake -DNE10_BUILD_SHARED=ON -DGNULINUX_PLATFORM=ON ..      # Run CMake to generate the build files
 ### 6. Build the library
