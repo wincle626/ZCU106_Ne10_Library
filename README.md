@@ -1,4 +1,7 @@
-# This is a repo for ARM Ne10 Library for ZCU106 board
+# This is a repository for ARM Ne10 Library for ZCU106 board
+
+## Original repository location
+https://github.com/projectNe10/Ne10
 
 ## Build instruction
     1 cd $NE10_PATH                                                # Change directory to the location of the Ne10 source
